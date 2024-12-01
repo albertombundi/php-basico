@@ -9,7 +9,7 @@ $c = 2 == 1 && 2 == 2;  // false
 $d = 1 == 2 && 2 == 1;  // false
    // false &&  false = false
 
-var_dump($a);
-var_dump($b);
-var_dump($c);
-var_dump($d);
+var_dump(value: $a);
+var_dump(value: $b);
+var_dump(value: $c);
+var_dump(value: $d);

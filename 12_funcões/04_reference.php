@@ -22,5 +22,5 @@ function addTen(int &$value ): void
 $myvalue = 20;
 
 echo"{$myvalue}\n";
-addTen($myvalue);
+addTen(value: $myvalue);
 echo"{$myvalue}\n";

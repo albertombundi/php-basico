@@ -1,6 +1,6 @@
 <?php
 $a = + '10';
-$c = gettype($a);
+$c = gettype(value: $a);
 
 echo $c ;
 echo"\n";

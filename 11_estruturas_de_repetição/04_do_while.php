@@ -3,7 +3,7 @@
 do{
     echo"FIQUE PARADO!\n";
 
-    $value = readline('Digite vermelho, amarelo ou verde: ');
+    $value = readline(prompt: 'Digite vermelho, amarelo ou verde: ');
 
 } while($value !== 'verde');
 

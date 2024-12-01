@@ -1,6 +1,6 @@
 <?php
 $name = 'Alberto ';
-$age = readline('Digite a sua idade: ');
+$age = readline(prompt: 'Digite a sua idade: ');
 
 echo $name ;
 echo"\n";

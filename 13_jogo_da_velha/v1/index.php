@@ -1,8 +1,8 @@
 <?php
 
 do {
-    $playerOne = readline('Player 1 (x) - Digite o seu nome: ');
-    $playerTwo = readline('Player 2 (o) - Digite o seu nome: ');
+    $playerOne = readline(prompt: 'Player 1 (x) - Digite o seu nome: ');
+    $playerTwo = readline(prompt: 'Player 2 (o) - Digite o seu nome: ');
 
     $player = "X";
 
@@ -24,9 +24,9 @@ do {
             EOL
         ;
 
-        $position = (int) readline("Player {$player}, digite a sua posição: "); 
+        $position = (int) readline(prompt: "Player {$player}, digite a sua posição: "); 
 
-        if (!in_array($position, [0, 1, 2, 3, 4, 5, 6, 7, 8])){
+        if (!in_array(needle: $position, haystack: [0, 1, 2, 3, 4, 5, 6, 7, 8])){
             echo"\nPosição inexistente, digite novamente.\n";
             continue;
         }
@@ -68,7 +68,7 @@ do {
             break;
         }
 
-        if (!in_array('.', $board)) {
+        if (!in_array(needle: '.', haystack: $board)) {
             break;
         }
 
@@ -100,7 +100,7 @@ do {
         echo"EMPATE\n";
     }
 
-    $playAgain = filter_var(readline("\nDeseja jogar novamente? (true/false): "), FILTER_VALIDATE_BOOLEAN);
+    $playAgain = filter_var(value: readline(prompt: "\nDeseja jogar novamente? (true/false): "), filter: FILTER_VALIDATE_BOOLEAN);
 
     echo"\n";
 

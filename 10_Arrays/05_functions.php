@@ -22,11 +22,11 @@ print_r($a);
 echo"\n";
 
 // EXIBE O ÚLTIMO VALOR DO ARRAY
-print_r(end($a));
+print_r(value: end($a));
 echo"\n";
 
 // CONTA A QUANTIDADE DE ELEMENTOS NUM ARRAY
-print_r(count($a));
+print_r(value: count($a));
 echo"\n";
 
 // VERIFICA SE UM VALOR EXISTE NUM ARRAY

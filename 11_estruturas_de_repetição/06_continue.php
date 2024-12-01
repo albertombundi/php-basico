@@ -1,6 +1,6 @@
 <?php
 
-    $numberOfMessages = (int) readline('Digite o número de mensagens a serem exibidas: ');
+    $numberOfMessages = (int) readline(prompt: 'Digite o número de mensagens a serem exibidas: ');
 
     for($count = 0; $count < $numberOfMessages; $count++){ 
         

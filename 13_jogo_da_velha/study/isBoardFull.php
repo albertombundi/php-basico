@@ -6,7 +6,7 @@
  */
 function isBoardFull(array $board): bool
 {
-    if (in_array(BLANK_ICON, $board)) {
+    if (in_array(needle: BLANK_ICON, haystack: $board)) {
         return false;
     } else {
         return true;

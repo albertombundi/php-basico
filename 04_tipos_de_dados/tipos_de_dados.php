@@ -33,4 +33,4 @@ $v10 = (object) [];
 $v11 = new stdClass();
 
 // gettype
-$type = gettype(10.5);
+$type = gettype(value: 10.5);

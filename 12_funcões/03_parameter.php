@@ -5,8 +5,8 @@ function beautifulMessage(string $message): string
     return ">>> {$message} <<<\n";
 }
 
-echo beautifulMessage('Testing');
-echo beautifulMessage('Testing 2.0');
+echo beautifulMessage(message: 'Testing');
+echo beautifulMessage(message: 'Testing 2.0');
 
 /** 
  * Return the som of all number.
@@ -30,4 +30,4 @@ function somOfAllnumbers(array $numbers): float
 
 $myArray = [10, 15.5, 4.5];
 
-echo somOfAllnumbers($myArray). "\n";
+echo somOfAllnumbers(numbers: $myArray). "\n";

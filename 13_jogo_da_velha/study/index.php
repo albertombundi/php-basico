@@ -19,32 +19,32 @@
         $winner = null;
 
      while ($winner === null) {
-        echo showBoard($board);
-        $position = (int) readline("Player {$player}, digite a sua posição: "); 
+        echo showBoard(board: $board);
+        $position = (int) readline(prompt: "Player {$player}, digite a sua posição: "); 
 
-        if(!isPositionCorrect($position, $board)) {
+        if(!isPositionCorrect(position: $position, board: $board)) {
            continue;
         }
 
         $board[$position] = $player;
 
-        if(validate($board, PLAYER_ONE_ICON)) {
+        if(validate(board: $board, player: PLAYER_ONE_ICON)) {
             $winner = PLAYER_ONE_ICON;
-        } elseif(validate($board, PLAYER_TWO_ICON)){
+        } elseif(validate($board, player: PLAYER_TWO_ICON)){
             $winner = PLAYER_TWO_ICON;
         } else{
             $winner = null;
         }
 
-        if (isboardFull($board)) {
+        if (isboardFull(board: $board)) {
             break;
         }
 
-        $player = swapPlayer($player);
+        $player = swapPlayer(player: $player);
     }
 
-        echo showBoard($board);
-        echo showWinner($winner, $players);
+        echo showBoard(board: $board);
+        echo showWinner(winner: $winner, players: $players);
 
         $playAgain = playAgain();
 

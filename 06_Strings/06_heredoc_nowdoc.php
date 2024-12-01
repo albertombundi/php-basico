@@ -62,14 +62,14 @@ echo $c3 . "\n";
 echo"\n";
 
 // Heredoc e Nowdoc para PHP 7.3 ou Superior
-function teste1() {
+function teste1(): void {
     $d = <<<EOF
         Teste 123
     EOF;
 }
 
 // Heredoc e Nowdoc para PHP 7.2 ou Inferior
-function teste2() {
+function teste2(): void {
     $e = <<<EOF
     Teste 123
     EOF;

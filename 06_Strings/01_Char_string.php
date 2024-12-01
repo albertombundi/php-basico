@@ -1,5 +1,5 @@
 <?php
-// CHAR = 1 caracter
+// CHAR = 1 caractere
 $char = 'a';
 
 // String = Múltiplos caracteres

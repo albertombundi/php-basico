@@ -1,5 +1,5 @@
 <?php
-$value = readline("Digite 1, 2 ou 3: ");
+$value = readline(prompt: "Digite 1, 2 ou 3: ");
 
 switch($value){
     case 1:

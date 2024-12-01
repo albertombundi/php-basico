@@ -1,4 +1,4 @@
 <?php
-$name = readLine('Digite o seu nome: ');
+$name = readline(prompt:'Digite o seu nome: ');
 echo $name;
 echo"\n";

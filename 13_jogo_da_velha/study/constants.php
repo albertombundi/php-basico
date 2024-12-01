@@ -1,5 +1,5 @@
 <?php
 
-define('BLANK_ICON', '⬜');
-define('PLAYER_ONE_ICON', '❎');
-define('PLAYER_TWO_ICON', '🙂');
+define(constant_name: 'BLANK_ICON', value: '⬜');
+define(constant_name: 'PLAYER_ONE_ICON', value: '❎');
+define(constant_name: 'PLAYER_TWO_ICON', value: '🙂');

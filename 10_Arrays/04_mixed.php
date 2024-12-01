@@ -9,7 +9,7 @@ $mixed = [
 
 ];
 
-print_r($mixed);
+print_r(value: $mixed);
 
 $mixed = [
     'name' => 'Felipe',
@@ -25,5 +25,5 @@ $mixed = [
     ],
 ];
 
-print_r($mixed);
+print_r(value: $mixed);
 
